@@ -1,0 +1,826 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    height: 40px;
+    width: 100vw;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+nav li {
+    padding-right: 10px;
+}
+
+#hovernav:hover {
+    background-color: rgb(182, 144, 219);
+    cursor: pointer;
+}
+
+.example {
+    position: relative;
+    left: 650px;
+}
+
+.example1 {
+    height: 25px;
+}
+
+.dum {
+    position: relative;
+    border-radius: 50%;
+    width: 38px;
+    left: 680px;
+}
+
+.dum:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgb(54, 0, 54));
+    cursor: pointer;
+}
+
+
+/* .container1{
+
+    height: 20vh;
+    background-color: rgb(208, 255, 0);
+    width:20vw ;
+    
+    } */
+
+.container2 {
+    display: grid;
+    background-color: lightgrey;
+    width: 100vw;
+}
+
+#i1 {
+    position: relative;
+    height: 186px;
+    width: 140px;
+    background-color: white;
+    left: 315px;
+    bottom: -8px;
+    border-radius: 12%;
+}
+
+#i2 {
+    position: relative;
+    height: 186px;
+    width: 140px;
+    background-color: white;
+    left: 469px;
+    bottom: 177px;
+    border-radius: 12%;
+}
+
+#i3 {
+    position: relative;
+    height: 186px;
+    width: 140px;
+    background-color: white;
+    left: 623px;
+    bottom: 362px;
+    border-radius: 12%;
+}
+
+#i4 {
+    position: relative;
+    height: 186px;
+    width: 140px;
+    background-color: white;
+    left: 776px;
+    bottom: 547px;
+    border-radius: 12%;
+}
+
+#i5 {
+    position: relative;
+    height: 90vh;
+    width: 470px;
+    background-color: white;
+    left: 955px;
+    bottom: 733px;
+}
+
+#i6 {
+    position: relative;
+    height: 170px;
+    width: 602px;
+    background-color: rgb(255, 255, 255);
+    bottom: 1080px;
+    left: 315px;
+}
+
+.container3 {
+    display: grid;
+    background-color: lightgrey;
+    width: 100vw;
+}
+
+#i7 {
+    position: relative;
+    width: 602px;
+    background-color: rgb(255, 255, 255);
+    bottom: 1032px;
+    left: 315px;
+}
+
+#i8 {
+    position: relative;
+    width: 602px;
+    background-color: rgb(255, 255, 255);
+    bottom: 998px;
+    left: 315px;
+}
+
+.container4 {
+    display: grid;
+    background-color: lightgrey;
+    width: 100vw;
+}
+
+#i9 {
+    position: relative;
+    width: 602px;
+    background-color: rgb(255, 255, 255);
+    bottom: 960px;
+    left: 315px;
+}
+
+#i10 {
+    position: relative;
+    width: 602px;
+    background-color: rgb(255, 255, 255);
+    bottom: 920px;
+    left: 315px;
+}
+
+#side {
+    position: relative;
+    bottom: 3545px;
+    left: 30px;
+}
+
+#side1 {
+    position: relative;
+    bottom: 3493px;
+    left: -87px;
+}
+
+#side2 {
+    position: relative;
+    bottom: 3437px;
+    left: -225px;
+}
+
+#side3 {
+    position: relative;
+    bottom: 3383px;
+    left: -337px;
+}
+
+#side4 {
+    position: relative;
+    bottom: 3326px;
+    left: -496px;
+}
+
+#side5 {
+    position: relative;
+    bottom: 3273px;
+    left: -634px;
+}
+
+.side1 {
+    padding: 18px;
+}
+
+.side2 {
+    padding: 18px;
+}
+
+.side3 {
+    padding: 18px;
+}
+
+.side4 {
+    padding: 18px;
+}
+
+.side5 {
+    padding: 18px;
+}
+
+.side6 {
+    padding: 18px;
+}
+
+.side7 {
+    padding: 18px;
+}
+
+.container5 {
+    background-color: lightgrey;
+    width: 100vw;
+}
+
+#grp {
+    position: relative;
+    bottom: 3534px;
+    left: 35px;
+}
+
+#grp2 {
+    position: relative;
+    bottom: 3481px;
+    left: -81px;
+}
+
+#grp3 {
+    position: relative;
+    bottom: 3426px;
+    left: -218px;
+}
+
+#grp4 {
+    position: relative;
+    bottom: 3370px;
+    left: -331px;
+}
+
+#grp5 {
+    position: relative;
+    bottom: 3317px;
+    left: -487px;
+}
+
+#grp6 {
+    position: relative;
+    bottom: 3261px;
+    left: -626px;
+}
+
+#grp:hover {
+    background-color: rgba(183, 152, 255, 0.685);
+    border-radius: 50%;
+}
+
+#grp2:hover {
+    background-color: rgba(183, 152, 255, 0.685);
+    border-radius: 50%;
+}
+
+#grp3:hover {
+    background-color: rgba(183, 152, 255, 0.685);
+    border-radius: 50%;
+}
+
+#grp4:hover {
+    background-color: rgba(183, 152, 255, 0.685);
+    border-radius: 50%;
+}
+
+#grp5:hover {
+    background-color: rgba(183, 152, 255, 0.685);
+    border-radius: 50%;
+}
+
+#grp6:hover {
+    background-color: rgba(183, 152, 255, 0.685);
+    border-radius: 50%;
+}
+
+.dum1 {
+    position: relative;
+    border-radius: 50%;
+    width: 38px;
+    left: 10px;
+    bottom: -10px;
+}
+
+.dum2 {
+    position: relative;
+    border-radius: 50%;
+    width: 38px;
+    left: 10px;
+    bottom: -10px;
+}
+
+.dum3 {
+    position: relative;
+    border-radius: 50%;
+    width: 38px;
+    left: 10px;
+    bottom: -10px;
+}
+
+.dum4 {
+    position: relative;
+    border-radius: 50%;
+    width: 38px;
+    left: 10px;
+    bottom: -10px;
+}
+
+.dum5 {
+    position: relative;
+    border-radius: 50%;
+    width: 56px;
+    left: 10px;
+    bottom: -10px;
+}
+
+#i1 .person {
+    position: absolute;
+    border-radius: 12%;
+    height: 188px;
+    width: 140px;
+}
+
+#i2 .person {
+    position: absolute;
+    border-radius: 12%;
+    height: 188px;
+    width: 140px;
+}
+
+#i3 .person {
+    position: absolute;
+    border-radius: 12%;
+    height: 188px;
+    width: 140px;
+}
+
+#i4 .person {
+    position: absolute;
+    border-radius: 12%;
+    height: 188px;
+    width: 140px;
+}
+
+.circle1 {
+    display: flex;
+    position: absolute;
+    z-index: +1;
+    height: 15%;
+    left: 54px;
+    bottom: 10px;
+}
+
+.plus {
+    display: flex;
+    position: absolute;
+    z-index: +1;
+    height: 10%;
+    ;
+    left: 58px;
+    bottom: 14px;
+}
+
+.plus:hover {
+    background-color: rgb(242, 172, 248);
+    border-radius: 50%;
+}
+
+#hr1 {
+    position: relative;
+    width: 70%;
+    height: 1px;
+    left: 87px;
+    bottom: -60px;
+}
+
+.stick {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+#p {
+    position: relative;
+    padding-left: 7px;
+    padding-right: 5px;
+    bottom: -35px;
+}
+
+.post {
+    padding-top: 40px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 32px;
+}
+
+#like {
+    position: relative;
+    height: 26px;
+    width: 26px;
+    left: 42px;
+    top: -18px;
+}
+
+#like1 {
+    position: relative;
+    bottom: 24px;
+    left: 48px;
+}
+
+#like:hover {
+    visibility: visible;
+    transform: scale(1.2);
+}
+
+#com {
+    position: relative;
+    padding-left: 15px;
+    width: 52px;
+    height: 23px;
+    left: 42px;
+    top: -18px;
+}
+
+#com:hover {
+    transform: scale(1.2);
+}
+
+#live {
+    position: absolute;
+    width: 43px;
+    height: 38px;
+    z-index: +1;
+    left: 242px;
+    bottom: 7px;
+}
+
+#post {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    z-index: +1;
+    left: 318px;
+    bottom: 10px;
+}
+
+#i5 .event {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 520px;
+}
+
+#i5 .event1 {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 429px;
+}
+
+#i5 .event2 {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 338px;
+}
+
+#ev {
+    position: relative;
+    padding-left: 20px;
+    bottom: -22px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#ev1 {
+    position: relative;
+    padding-left: 40px;
+    bottom: -88px;
+    color: rgb(68, 100, 245);
+}
+
+#ev2 {
+    position: relative;
+    bottom: -120px;
+    color: rgb(68, 100, 245);
+    left: -50px;
+    bottom: -180px;
+}
+
+#ev3 {
+    position: relative;
+    bottom: -22px;
+    color: rgb(68, 100, 245);
+    left: -110px;
+    bottom: -270px;
+}
+
+#i5 #conver {
+    position: absolute;
+    left: 20px;
+    bottom: 302px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.conversation_container .conversation {
+    margin-top: 10px;
+    position: relative;
+    border-radius: 70%;
+    width: 38px;
+    bottom: -350px;
+    left: 20px;
+}
+
+.conversation_container .conversation1 {
+    position: relative;
+    border-radius: 70%;
+    width: 38px;
+    bottom: -415px;
+    left: -20px;
+}
+
+.conversation_container .conversation2 {
+    position: relative;
+    border-radius: 70%;
+    width: 38px;
+    bottom: -480px;
+    left: -62px;
+}
+
+.conversation_container #user1 {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    border-radius: 70%;
+    width: 38px;
+    bottom: -335px;
+    left: -62px;
+}
+
+.conversation_container #user2 {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    border-radius: 70%;
+    width: 38px;
+    bottom: -400px;
+    left: -105px;
+}
+
+.conversation_container #user3 {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    border-radius: 70%;
+    width: 38px;
+    bottom: -465px;
+    left: -150px;
+}
+
+.conversation_container .conversation:hover {
+    transform: scale(1.2);
+}
+
+.conversation_container .conversation1:hover {
+    transform: scale(1.2);
+}
+
+.conversation_container .conversation2:hover {
+    transform: scale(1.2);
+}
+
+.conversation_container #user1:hover {
+    text-decoration: underline;
+}
+
+.conversation_container #user2:hover {
+    text-decoration: underline;
+}
+
+.conversation_container #user3:hover {
+    text-decoration: underline;
+}
+
+#i6 #pubpri {
+    position: absolute;
+    left: 65px;
+    bottom: 114px;
+}
+
+#live:hover {
+    filter: drop-shadow(0 0 10px rgb(104, 101, 101));
+}
+
+#post:hover {
+    filter: drop-shadow(0 0 10px rgb(104, 101, 101));
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#backimg {
+    background-image: url(./images/first.jpg);
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#login:hover {
+    text-decoration: underline;
+}
+
+#sign:hover {
+    text-decoration: underline;
+}
+
+
+/* #login {
+    position: relative;
+    left: 770px;
+    top: -13px;
+    color: #271535;
+}
+
+#sign {
+    position: relative;
+    left: 790px;
+    top: -13px;
+    color: #271535;
+} */
+
+#logout {
+    position: relative;
+    left: 800px;
+    top: -13px;
+    color: #ffffff;
+}
+
+#wel {
+    position: relative;
+    text-transform: capitalize;
+    text-shadow: #ca85ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    top: 30px;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+#wel1 {
+    position: relative;
+    text-transform: capitalize;
+    text-shadow: #ca85ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    top: 30px;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+#vivi {
+    position: relative;
+    text-transform: capitalize;
+    text-shadow: #350e53;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(228, 204, 255);
+    top: 100px;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+#NAME {
+    position: relative;
+    left: 690px;
+    top: -13px;
+    color: #000000;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #ac4afc;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #ac4afc;
+    color: white;
+}

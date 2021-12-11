@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <title>Vivid</title>
+</head>
+
+<body>
+
+
+    <nav>
+        <ul type="none" class="nav">
+            <li><img src="images/logo.png" style="height: 20px;padding-right: 7px"></li>
+            <li id="hovernav" style="text-shadow: 1rem;font-family: 'Courier New', Courier, monospace;color:white;padding-left: 18px;">
+                Home
+            </li><img src="images/home.png" style="height: 20px;padding-right: 7px">
+            <li id="hovernav" style="text-shadow: 1rem;font-family: 'Courier New', Courier, monospace;color:white">
+                Explore</li><img src="images/explore.png" style="height: 20px;padding-right: 7px">
+            <li>
+                <form class="example" action="">
+                    <input class="example1" type="text" placeholder="Search  " name="search">
+                    <button class="example1">Search</button>
+                </form>
+            </li>
+            <li>
+                <img class="dum" src="images/dummy.png" style="height:29px;padding-right: 7px"><span id="NAME"><%= Name %></span>
+                <a href="index.html" style="text-decoration:none"><span onclick="lo()" id="logout">Log Out</span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container2">
+        <div id="i1"><img class="circle1" src="images/circle-64.png">
+            <a href=""><img class="plus" src="images/plus.png"></a><img class="person" src="images/person.png">
+            <a href="#" target="_blank"><img class="dum1" src="images/dummy.png" style="height:29px;padding-right: 7px"></a>
+        </div>
+        <div id="i2"><img class="person" src="images/person.png">
+            <a href="#" target="_blank"><img class="dum2" src="images/dummy.png" style="height:29px;padding-right: 7px"></a>
+        </div>
+        <div id="i3"><img class="person" src="images/person.png">
+            <a href="#" target="_blank"><img class="dum3" src="images/dummy.png" style="height:29px;padding-right: 7px"></a>
+        </div>
+        <div id="i4"><img class="person" src="images/person.png">
+            <a href="#" target="_blank"><img class="dum4" src="images/dummy.png" style="height:29px;padding-right: 7px"></a>
+        </div>
+        <div id="i5" class="stick"><span id="ev">Events</span><img class="event" src="images/event.jpg">
+            <a style="text-decoration: none;" href="">
+                <span1 id="ev1">Diwali</span>
+            </a>
+            <img class="event1" src="images/event.jpg"><a style="text-decoration: none;" href=""><span
+                    id="ev2">Christmas</span></a><img class="event2" src="images/event.jpg"><a style="text-decoration: none;" href=""><span id="ev3">Holi</span></a>
+            <div class="conversation_container"><span id="conver">Conversation</span>
+                <a href=""> <img class="conversation" src="images/dummy.png"></a>
+                <a href=""><img class="conversation1" src="images/dummy.png"></a>
+                <a href=""> <img class="conversation2" src="images/dummy.png"></a>
+
+                <a href=""> <span id="user1">User1</span></a>
+                <a href=""><span id="user2">User2</span></a>
+                <a href=""><span id="user3">User3</span></a>
+            </div>
+        </div>
+        <div id="i6">
+            <a href="#" target="_blank">
+                <a href=""> <img id="live" src="images/golive.jpg"></a>
+                <a id="myBtn">
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2></h2>
+                            </div>
+                            <div class="modal-body">
+                                <form action="/upload" method="POST">
+                                    <div class="form-group">
+                                        <input type="text" name="test" id="input-files" class="form-control-file border" />
+                                    </div>
+
+                                    <hr>
+
+                                    <button type="submit" class="btn btn-primary">Post</button>
+                                </form>
+                                <div class="modal-footer">
+                                    <h3></h3>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div><img id="post" src="images/post.png"></a> <img class="dum5" src="images/circle.png" style="height:50px;padding-right: 7px"></a><span style="padding: 10px;position: relative;bottom: 20px;"><%= Name %></span>
+            <form action="/action_page.php">
+                <select name="pubpri" id="pubpri">
+                    <option value="public">Public</option>
+                    <option value="private">Private</option>
+                </select>
+            </form>
+            <div style="position: absolute;left:63px;bottom:86px">What To Create ,
+                <%= Name %>?</div>
+            <span>
+                <hr id="hr1">
+            </span>
+        </div>
+        <div id="i7">
+            <a href="#" target="_blank"><img class="dum5" src="images/circle.png" style="height:50px;padding-right: 7px"></a><span style="padding: 10px;position: relative;bottom: 20px;">Name</span>
+            <div style="position: absolute;left:63px;bottom:470px;font-family: 'Cormorant Garamond', serif;">October 18 2021, 01:23</div>
+            <p id="p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam error distinctio omnis mollitia quia, dicta quod, ullam aut accusamus fugiat similique incidunt nulla sit? Rerum, eum id! Labore, voluptatum.
+            </p>
+            <img class="post" src="https://source.unsplash.com/user/erondu/1600x900" style="height:74%;width: 602px;">
+            <a href=""><img id="like" src="images/like.png"></a>
+            <a href=""><img id="com" src="images/comment.png"></a>
+        </div>
+
+    </div>
+
+    <div class="container3">
+
+        <div id="i8">
+            <a href="#" target="_blank"><img class="dum5" src="images/circle.png" style="height:50px;padding-right: 7px"></a><span style="padding: 10px;position: relative;bottom: 20px;">Name</span>
+            <div style="position: absolute;left:63px;bottom:470px;font-family: 'Cormorant Garamond', serif;">October 18 2021, 01:24</div>
+            <p id="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat saepe aperiam, laboriosam aliquid non, harum neque vel velit minus doloribus totam incidunt consequatur nisi aut et facere fuga commodi sed.
+            </p>
+            <img class="post" src="https://source.unsplash.com/user/erondu/1600x900" style="height:74%;width: 602px;">
+            <a href=""><img id="like" src="images/like.png"></a>
+            <a href=""><img id="com" src="images/comment.png"></a>
+        </div>
+
+
+
+    </div>
+
+    <div class="container4">
+
+        <div id="i9">
+            <a href="#" target="_blank"><img class="dum5" src="images/circle.png" style="height:50px;padding-right: 7px"></a><span style="padding: 10px;position: relative;bottom: 20px;">Name</span>
+            <div style="position: absolute;left:63px;bottom:470px;font-family: 'Cormorant Garamond', serif;">October 18 2021, 01:25</div>
+            <p id="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat saepe aperiam, laboriosam aliquid non, harum neque vel velit minus doloribus totam incidunt consequatur nisi aut et facere fuga commodi sed.
+            </p>
+            <img class="post" src="https://source.unsplash.com/user/erondu/1600x900" style="height:74%;width: 602px;">
+            <a href=""><img id="like" src="images/like.png"></a>
+            <a href=""><img id="com" src="images/comment.png"></a>
+        </div>
+
+        <div id="i10">
+            <a href="#" target="_blank"><img class="dum5" src="images/circle.png" style="height:50px;padding-right: 7px"></a><span style="padding: 10px;position: relative;bottom: 20px;">Name</span>
+            <div style="position: absolute;left:63px;bottom:470px;font-family: 'Cormorant Garamond', serif;">October 18 2021, 01:26</div>
+            <p id="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat saepe aperiam, laboriosam aliquid non, harum neque vel velit minus doloribus totam incidunt consequatur nisi aut et facere fuga commodi sed.
+            </p>
+            <img class="post" src="https://source.unsplash.com/user/erondu/1600x900" style="height:74%;width: 602px;">
+            <a href=""><img id="like" src="images/like.png"></a>
+            <a href=""><img id="com" src="images/comment.png"></a>
+        </div>
+
+
+    </div>
+
+    <div class="container5">
+        <ul type="none">
+            <a href="" target="_blank" style="text-decoration: none;"><img id="grp" src="images/group.png">
+                <span id="side" class="side1">Group</span>
+            </a>
+            <a href="" target="_blank" style="text-decoration: none;"> <img id="grp2" src="images/msg.png">
+                <span id="side1" class="side3">Messages</span>
+            </a>
+            <a href="https://timesofindia.indiatimes.com/world" target="_blank" style="text-decoration: none;"><img id="grp3" src="images/news.png">
+                <span id="side2" class="side4">News</span>
+            </a>
+            <a href="" target="_blank" style="text-decoration: none;"> <img id="grp4" src="images/noti.png" style="height: 30px;width: 30px;">
+                <span id="side3" class="side5">Notifications</span>
+            </a>
+            <a href="" target="_blank" style="text-decoration: none;"><img id="grp5" src="images/more.png">
+                <span id="side4" class="side6">See More</span>
+            </a>
+            <a href="" target="_blank" style="text-decoration: none;"><img id="grp6" src="images/wat.png">
+                <span id="side5" class="side7">Watch</span>
+            </a>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="preview-images"></div>
+        </div>
+    </div>
+    <script src="modal.js"></script>
+    <script src="script.js"></script>
+    <script src="logout.js"></script>
+    <!-- <script>
+        $(document).ready(function() {
+            let imagesPreview = function(input, placeToInsertImagePreview) {
+                if (input.files) {
+                    let filesAmount = input.files.length;
+                    for (i = 0; i < filesAmount; i++) {
+                        let reader = new FileReader();
+                        reader.onload = function(event) {
+                            $($.parseHTML("<img>"))
+                                .attr("src", event.target.result)
+                                .appendTo(placeToInsertImagePreview);
+                        };
+                        reader.readAsDataURL(input.files[i]);
+                    }
+                }
+            };
+            $("#input-files").on("change", function() {
+                imagesPreview(this, "div.preview-images");
+            });
+        });
+    </script> -->
+
+</body>
+
+
+
+</html>
